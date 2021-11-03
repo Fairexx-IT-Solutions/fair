@@ -1,0 +1,843 @@
+@media screen and (max-width: 320px) {
+    html, body {
+        width: 100%;
+    }
+    main {
+        display: block;
+        width: 100%;
+    }
+    .myHeader {
+        width: 100%;
+        height: auto;
+        display: block;
+        float: left;
+        margin-top: 2px;
+    }
+
+    .logo {
+        width: 100%;
+    }
+
+    .nav-control {
+        display: block;
+        margin-top: 15px;
+        float: right;
+        text-align: right;
+    }
+
+    .nav-show {
+        display: block;
+        float: right;
+        text-align: right;
+        position: absolute;
+        background: none;
+        color: grey;
+        margin-bottom: 5px;
+    }
+    .nav-hide {
+        display: none;
+        position: absolute;
+        background: none;
+        color: grey;
+        margin-bottom: 5px;
+    }
+    .myNav {
+        display: block;
+        width: 100%;
+        margin-left: 0;
+        float: left;
+    }
+    .myNav ul {
+        width: 100%;
+        display: none;
+        list-style: none;
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 20px;
+        margin-bottom: 25px;
+        background-color: transparent;
+        background: rgb(209, 207, 207);
+        background-blend-mode:color;
+        padding: 4px 0px 4px 0px;
+        
+    }
+    .myNav ul li a {
+        color: white;
+    }
+    .myNav ul li a:hover {
+        color: red;
+    }
+    .sign {
+        width: 100%;
+        display: flex;
+        margin-top: 20px;
+    }
+    .in {
+        margin-right: 0;
+        width: 80px;
+        height: 42px;
+        border: none;
+        background: none;
+        margin-top: 0px;
+        font-family: rubik;
+        font-size: 12px;
+        font-weight: 300;
+    }
+    .in a:hover{
+        color: red;
+    }
+
+    .up {
+    
+        box-sizing: border-box;
+        width: 80px;
+        height: 42px;
+        border: red solid 1px;
+        border-radius: 20px;
+        background: none;
+        margin-top: 0px;
+        color: red;
+        font-family: rubik;
+        font-size: 12px;
+        font-weight: 300;
+        justify-content: center;
+        text-decoration: none;
+        letter-spacing: 2px;
+        transition: all .3s ease-out 0s;
+        margin-top: auto;
+        margin-bottom: auto;
+        
+    }
+    .sec1 {
+        display: block;
+        width: 100%;
+    }
+    .myBanner {
+        width: 100%;
+        position: relative;
+        display: block;
+        text-align: left;
+        height: auto;
+        margin-bottom: 0;
+        margin-top: 20px;
+    }
+
+    .asideLeft {
+        width: 100%;
+        display: block;
+        height: auto;
+    }
+    
+    .bannerText {
+        display: block;
+        margin-bottom: 50px;
+    }
+    
+    .bannerText h1 {
+        font-family: rubik;
+        font-size: 30px;
+        font-weight: 400px;
+        font-style: normal;
+    }
+    
+    .bannerText p {
+        font-size: 13px;
+        font-weight: 200;
+        font-style: normal;
+        width: 100%;
+    }
+    
+    .btnn {
+        background: #F53838;
+        border: none;
+        /* filter: drop-shadow(0px 15px 0px rgb(243, 174, 174)); */
+        /* border-radius: 50px; */
+        width: 200px;
+        height: 50px;
+        border-radius: 20px;
+        background: red;
+        box-shadow:  0px 19px 38px #d46969,
+                 -0px -0px 0px #ff8d8d;
+        
+    }
+    
+    
+    
+    .btnn p {
+        color: white;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .imgcontainer {
+        width: 100%;
+        height: auto;
+    }
+    
+    .ban img {
+        height: 150px;
+        text-align: center;
+        margin-top: 45px;
+    }
+
+    .stats {
+        display: none;
+        justify-content: space-evenly;
+        background: white;
+        height: 100px;
+        width: 100%;
+        margin-right: 0;
+        margin-top: 50px;
+        margin-bottom: 60px;
+        border-radius: 10px;
+        border-radius: 23px;
+        background: #ffffff;
+        box-shadow:  -2px 22px 44px #bdbdbd,
+                     0px -0px 0px #ffffff;
+    }
+
+    .userIcon img {
+        margin: auto;
+        /* size: 8px; */
+        height: 30px;
+        width: 35px;
+    } 
+
+    .userIcon {
+        margin-right: 10px;
+        margin-top: 40px;
+    }
+    .userText {
+        font-size: 8px;
+        height: 20px;
+        margin-top: 45px;
+        text-align: center;
+    }
+
+    .bar img {
+        height: 60px;
+        margin-top: 20px;
+        margin-left: 40px;
+    }
+
+    .banner2 {
+        display: block;
+        width: 100%;
+        background: none;
+    }
+    .ban {
+        display: none;
+    }
+
+    .bani img {
+        display: none;
+        width: 300px;
+        height: 200px;
+    }
+
+    
+.bantextcon {
+    margin-top: 80px;
+    width: 100%;
+}
+
+.bantext1 {
+    width: 100%;
+    margin-bottom: 30px;
+    
+}
+.bantext1 h3 {
+    width: 100%;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.bantext2  {
+    width: 100%;
+}
+.bantext2 p {
+    width: 100%;
+    font-weight: 350;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.list {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 23px;
+}
+
+.list img {
+    height: 16px;
+    width: 16px;
+    text-align: center;
+}
+
+.list p {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 16px;
+    font-weight: 350;
+    font-size: 16px;
+}
+
+.sec2 {
+    width: 100%;
+    height: auto;
+    background: rgb(252, 251, 251);
+    padding-left: 60px;
+    padding-right: 60px;
+    /* padding-left: 60px;
+    padding-right: 30px; */
+}
+
+.planText {
+    width: 100%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 25px;
+}
+
+.planText h3 {
+    font-family: rubik;
+    font-size: 18px;
+}
+
+.planText p {
+    text-align: center;
+    font-size: 15px;
+    font-family: rubik;
+    font-weight: 300;
+    width: 180px;
+}
+
+.plateMain {
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.planPlate {
+    width: 230px;
+    height: 520px;
+    border: 2px solid #DDDDDD;
+    text-align: center;
+    background: white;
+    margin-bottom: 20px;
+
+}
+
+.picstat {
+    display: none;
+}
+
+.picstaText{
+    text-align: center;
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+
+
+.statmap {
+    width: 60%;
+    height: auto;
+    margin-left: 90px;
+    
+}
+
+.statcover {
+    width: 55%;
+    margin-left: 100px;
+    margin-bottom: 30px;
+    
+}
+
+.sto {
+    display: none;
+}
+
+.sec3 {
+    width: 100%;
+    
+}
+
+.subplate {
+    position: absolute;
+    display: block;
+    justify-content: space-between;
+    width: 60%;
+    height: 150px;
+    margin-top: 30px;
+    background: white;
+    /* margin-left: auto;
+    margin-right: auto; */
+    padding: 10px;
+    border-radius: 22px;
+    
+    box-shadow:  18px 18px 36px #cfcece,
+                 -4px -4px 36px #cfcece;
+}
+
+.subText {
+    width: 80%;
+}
+.subText h4 {
+    width: 200px;
+    font-weight: 500;
+    font-size: 16px;
+    margin: 8px 0 0 0;
+}
+
+.subText p {
+    display: none;
+    margin: 8px 0 0 0;
+}
+
+.subtn button {
+    width: 100px;
+    height: 40px;
+    background: red;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 28px;
+    /* border-radius: 11px; */
+    box-shadow:  -0px 19px 31px rgb(238, 189, 189),
+             0px -0px 0px white;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 0;
+    padding: 220px 60px 20px 60px;
+    
+    background: rgba(80, 79, 79, 0.05);
+    /* box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 7px ); */
+    /* -webkit-backdrop-filter: blur( 7px );
+    border-radius: 10px; */
+}
+
+.futext {
+    width: 140px;
+}
+
+.foot {
+    width: 100%;
+    display: block;
+    
+}
+.futgen {
+    margin: 0 8px 0 8px;
+    margin-bottom: 20px;
+}
+
+.pro {
+    width: 80%;
+}
+.sec2 {
+    width: 100%;
+}
+}
+
+
+/* Styling for tabblet */
+@media only screen and (min-width:321px) and (max-width:768px){
+    body {
+        padding-top: 30px;
+       
+    }
+    main {
+        width: 100%;
+    }
+    .myHeader {
+        width: 100%;
+        height: auto;
+        display: block;
+        margin-top: 2px;
+    }
+
+    .logo {
+        width: 100%;
+    }
+    .myNav {
+        display: flex;
+        width: 100%;
+        margin-left: 0;
+        float: left;
+    }
+    .myNav ul {
+        width: 100%;
+        display: flex;
+        list-style: none;
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    .sign {
+        width: 100%;
+        display: flex;
+    }
+    .in {
+        margin-right: 0;
+        width: 80px;
+        height: 42px;
+        border: none;
+        background: none;
+        margin-top: 0px;
+        font-family: rubik;
+        font-size: 12px;
+        font-weight: 300;
+    }
+    .in a:hover{
+        color: white;
+        background: red;
+    }
+
+    .up {
+    
+        box-sizing: border-box;
+        width: 80px;
+        height: 42px;
+        border: red solid 1px;
+        border-radius: 20px;
+        background: none;
+        margin-top: 0px;
+        color: red;
+        font-family: rubik;
+        font-size: 12px;
+        font-weight: 300;
+        justify-content: center;
+        text-decoration: none;
+        letter-spacing: 2px;
+        transition: all .3s ease-out 0s;
+        margin-top: auto;
+        margin-bottom: auto;
+        
+    }
+    .sec1 {
+        display: block;
+        width: 100%;
+    }
+    .myBanner {
+        width: 100%;
+        position: relative;
+        display: block;
+        text-align: left;
+        height: auto;
+        margin-bottom: 0;
+        margin-top: 20px;
+    }
+
+    .asideLeft {
+        width: 100%;
+        display: block;
+        height: auto;
+    }
+    
+    .bannerText {
+        display: block;
+        margin-bottom: 50px;
+    }
+    
+    .bannerText h1 {
+        font-family: rubik;
+        font-size: 30px;
+        font-weight: 400px;
+        font-style: normal;
+    }
+    
+    .bannerText p {
+        font-size: 13px;
+        font-weight: 200;
+        font-style: normal;
+        width: 100%;
+    }
+    
+    .btnn {
+        background: #F53838;
+        border: none;
+        /* filter: drop-shadow(0px 15px 0px rgb(243, 174, 174)); */
+        /* border-radius: 50px; */
+        width: 200px;
+        height: 50px;
+        border-radius: 20px;
+        background: red;
+        box-shadow:  0px 19px 38px #d46969,
+                 -0px -0px 0px #ff8d8d;
+        
+    }
+    
+    
+    
+    .btnn p {
+        color: white;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .imgcontainer {
+        width: 100%;
+        height: auto;
+    }
+    
+    .ban img {
+        height: 150px;
+        text-align: center;
+        margin-top: 45px;
+    }
+
+    .stats {
+        display: flex;
+        justify-content: space-evenly;
+        background: white;
+        height: 100px;
+        width: 100%;
+        margin-right: 0;
+        margin-top: 50px;
+        margin-bottom: 60px;
+        border-radius: 10px;
+        border-radius: 23px;
+        background: #ffffff;
+        box-shadow:  -2px 22px 44px #bdbdbd,
+                     0px -0px 0px #ffffff;
+    }
+
+    .userIcon img {
+        margin: auto;
+        /* size: 8px; */
+        height: 30px;
+        width: 35px;
+    } 
+
+    .userIcon {
+        margin-right: 10px;
+        margin-top: 40px;
+    }
+    .userText {
+        font-size: 8px;
+        height: 20px;
+        margin-top: 45px;
+        text-align: center;
+    }
+
+    .bar img {
+        height: 60px;
+        margin-top: 20px;
+        margin-left: 40px;
+    }
+
+    .banner2 {
+        display: block;
+        width: 100%;
+        background: none;
+    }
+
+    .bani img {
+        display: none;
+        width: 300px;
+        height: 200px;
+    }
+
+    
+.bantextcon {
+    margin-top: 80px;
+    width: 100%;
+}
+
+.bantext1 {
+    width: 100%;
+    margin-bottom: 30px;
+    
+}
+.bantext1 h3 {
+    width: 100%;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.bantext2  {
+    width: 100%;
+}
+.bantext2 p {
+    width: 100%;
+    font-weight: 350;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.list {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 23px;
+}
+
+.list img {
+    height: 16px;
+    width: 16px;
+    text-align: center;
+}
+
+.list p {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 16px;
+    font-weight: 350;
+    font-size: 16px;
+}
+
+.sec2 {
+    width: 100%;
+    height: auto;
+    background: rgb(252, 251, 251);
+    padding-left: 60px;
+    padding-right: 60px;
+    /* padding-left: 60px;
+    padding-right: 30px; */
+}
+
+.planText {
+    width: 100%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.planText h3 {
+    font-family: rubik;
+    font-size: 18px;
+}
+
+.planText p {
+    text-align: center;
+    font-size: 15px;
+    font-family: rubik;
+    font-weight: 300;
+    width: 300px;
+}
+
+.plateMain {
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.planPlate {
+    width: 230px;
+    height: 520px;
+    border: 2px solid #DDDDDD;
+    text-align: center;
+    background: white;
+    margin-bottom: 20px;
+}
+
+.picstaText{
+    text-align: center;
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+
+
+.statmap {
+    width: 60%;
+    height: auto;
+    margin-left: 90px;
+    
+}
+
+.statcover {
+    width: 55%;
+    margin-left: 100px;
+    margin-bottom: 30px;
+    
+}
+
+.sto {
+    display: none;
+}
+
+.subplate {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    height: 150px;
+    background: white;
+    /* margin-left: auto;
+    margin-right: auto; */
+    padding: 20px 60px 20px 60px;
+    border-radius: 22px;
+    
+    box-shadow:  18px 18px 36px #cfcece,
+                 -4px -4px 36px #cfcece;
+}
+
+.subText {
+    width: 250px;
+}
+.subText h4 {
+    width: 200px;
+    font-weight: 500;
+    font-size: 16px;
+    margin: 20px 0 0 0;
+}
+
+.subText p {
+    margin: 8px 0 0 0;
+}
+
+.subtn button {
+    width: 100px;
+    height: 40px;
+    background: red;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 28px;
+    /* border-radius: 11px; */
+    box-shadow:  -0px 19px 31px rgb(238, 189, 189),
+             0px -0px 0px white;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 0;
+    padding: 220px 60px 20px 60px;
+    
+    background: rgba(80, 79, 79, 0.05);
+    /* box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 7px ); */
+    /* -webkit-backdrop-filter: blur( 7px );
+    border-radius: 10px; */
+}
+
+.futext {
+    width: 140px;
+}
+
+.foot {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.futgen {
+    margin: 0 8px 0 8px;
+}
+.sec2 {
+    width: 100%;
+}
+}

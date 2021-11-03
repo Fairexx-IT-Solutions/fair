@@ -1,0 +1,973 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    width: auto;
+    margin: 0;
+    /* padding-left: 60px;
+    padding-right: 30px;
+    padding-bottom: 15px; */
+    background: white;
+    font-family: rubik, sans-serif;
+    /* margin-left: auto;
+    margin-right: auto; */
+}
+
+ /* .main {
+    width: auto;
+}  */
+.myHeader {
+    padding-left: 60px;
+    padding-right: 60px;
+    display: flex;
+    margin-top: 50px;
+    height: 60px;
+    width: 100%;
+    margin-bottom: 20px;
+    
+    
+}
+.logo {
+    display: flex;
+    margin-top: 5px;
+}
+.logo img {
+    width: 40px;
+    height: 45.23px;
+}
+
+.logo h2 {
+    margin-left: 20px;
+    font-family: rubik;
+    width: 104px;
+    height: 24px;
+    font-size: 20px;
+    font-style: normal;
+    line-height: 24px;
+    font-weight: 500;
+    color: #0b132a;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.myNav {
+    display: flex;
+    margin-left: 100px;
+    
+
+}
+
+.myNav ul {
+    display: flex;
+    list-style: none;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.myNav ul li {
+    text-decoration: none;
+    margin: 10px;
+}
+.myNav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+}
+.myNav ul li a:hover {
+    text-decoration: none;
+    color: red;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.nav-control {
+    display: none;
+}
+
+
+
+.in {
+    margin-right: 20px;
+    width: 150px;
+    height: 42px;
+    border: none;
+    background: none;
+    margin-top: 0px;
+    font-family: rubik;
+    font-size: 16px;
+    font-weight: 300;
+    color:black;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: all .3s ease-out 0s;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.in a {
+    text-decoration: none;
+    color:black;
+}
+
+.in a:hover{
+    color: red;
+}
+
+.in:hover{
+    
+    /* width: 150px;
+    height: 42px; */
+    /* border: red solid 1px; */
+    border-radius: 50px;
+    background: whitesmoke;
+    color: red;
+    padding: 0;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+
+
+
+
+.up {
+    
+    box-sizing: border-box;
+    width: 150px;
+    height: 42px;
+    border: red solid 1px;
+    border-radius: 50px;
+    background: none;
+    margin-top: 0px;
+    color: red;
+    font-family: rubik;
+    font-size: 16px;
+    font-weight: 300;
+    justify-content: center;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: all .3s ease-out 0s;
+    margin-top: auto;
+    margin-bottom: auto;
+    
+}
+
+.up a {
+    text-decoration: none;
+    color: red;
+}
+
+
+
+
+
+.up:hover{
+    
+    /* width: 150px;
+    height: 42px; */
+    border: none;
+    border-radius: 50px;
+    background: whitesmoke;
+    color: rgb(92, 75, 75);
+    padding: 0;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+.sec1 {
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-top: 45px;
+}
+
+.asideLeft {
+    width: 555px;
+    display: block;
+}
+
+.bannerText {
+    display: block;
+    margin-bottom: 50px;
+}
+
+.bannerText h1 {
+    font-family: rubik;
+    font-size: 50px;
+    font-weight: 500px;
+    font-style: normal;
+}
+
+.bannerText p {
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.btnn {
+    background: #F53838;
+    border: none;
+    /* filter: drop-shadow(0px 15px 0px rgb(243, 174, 174)); */
+    /* border-radius: 50px; */
+    width: 220px;
+    height: 50px;
+    border-radius: 10px;
+    border-radius: 10px;
+    background: red;
+    box-shadow:  0px 19px 38px #d46969,
+             -0px -0px 0px #ff8d8d;
+    
+}
+
+
+
+.btnn p {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+
+.myBanner {
+    display: flex;
+    justify-content: space-between;
+    height: 410px;
+    margin-bottom: 0;
+    margin-top: 20px;
+}
+
+.imgcontainer {
+    width: 500px;
+    height: 600px;
+}
+
+.ban img {
+    height: 310px;
+    text-align: center;
+    margin-top: 45px;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-evenly;
+    background: white;
+    height: 200px;
+    width: 100%;
+    margin-right: 0;
+    margin-top: 50px;
+    margin-bottom: 60px;
+    border-radius: 10px;
+    border-radius: 23px;
+    background: #ffffff;
+    box-shadow:  -2px 22px 44px #bdbdbd,
+                 0px -0px 0px #ffffff;
+}
+.users {
+    display: flex;
+    
+    justify-items: center;
+    text-align: center;
+    margin-left: 0px;
+    
+}
+.userIcon {
+    margin-right: 20px;
+    margin-top: 73px;
+}
+
+.userIcon img {
+    margin: auto;
+    size: 20px;
+    height: 55px;
+    width: 55px;
+} 
+.userText {
+    height: 55px;
+    margin-top: 80px;
+    text-align: center;
+}
+
+.userText h3{
+    margin: 0;
+    padding: 0;
+}
+
+.userText p{
+    margin: 0;
+    padding: 0;
+}
+
+.bar img {
+    height: 125px;
+    margin-top: 44px;
+    margin-left: 40px;
+}
+
+.banner2 {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    background: none;
+}
+.bani img {
+    width: 500px;
+    height: 380px;
+}
+
+.bantextcon {
+    margin-top: 80px;
+}
+
+.bantext1 {
+    width: 210px;
+    margin-bottom: 30px;
+    
+}
+.bantext1 h3 {
+    width: 300px;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.bantext2  {
+    width: 430px;
+}
+.bantext2 p {
+    width: 400px;
+    font-weight: 350;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.list {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 23px;
+}
+
+.list img {
+    height: 16px;
+    width: 16px;
+    text-align: center;
+}
+
+.list p {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 16px;
+    font-weight: 350;
+    font-size: 16px;
+}
+.sec2 {
+    /* width: auto; */
+    height: auto;
+    background: rgb(252, 251, 251);
+    padding-left: 60px;
+    padding-right: 60px;
+    /* padding-left: 60px;
+    padding-right: 30px; */
+}
+
+.pla {
+    width: 100%;
+    height: auto;
+    /* background-color: rgb(241, 241, 241); */
+    padding-top: 25px;
+    margin-bottom: 80px;
+}
+
+.planText {
+    width: 555px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.planText h3 {
+    font-family: rubik;
+    font-size: 20px;
+}
+
+.planText p {
+    font-size: 16px;
+    font-family: rubik;
+    font-weight: 300;
+    width: 555px;
+}
+
+.plateMain {
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.planPlate {
+    width: 230px;
+    height: 520px;
+    border: 2px solid #DDDDDD;
+    text-align: center;
+    background: white;
+}
+
+.planPlate:hover{
+    width: 230px;
+    height: 520px;
+    border: 2px solid red;
+    text-align: center;
+    background: white;
+    background: rgba( 255, 255, 255, 0.35 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 20px );
+-webkit-backdrop-filter: blur( 20px );
+border-radius: 10px;
+
+}
+
+.planItem {
+    margin-top: 50px;
+}
+.planItem img {
+    width: 120px;
+    height: 130px;
+}
+
+.planListItem {
+    
+    text-align: center;
+    margin-top: auto;
+    margin-right: auto;
+}
+
+.planList {
+    display: flex;
+    /* justify-content: center; */
+    text-align: center;
+    margin-left: 20%;
+    margin-bottom: 15px;
+    
+}
+
+.planList img {
+    width: 13.33px;
+    height: 9.0px;
+}
+
+.planList p {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 16px;
+    font-weight: 300;
+    font-size: 10px;
+    text-align: left;
+}
+
+.planclick {
+    margin-top: 100px;
+}
+
+.planclick h5 {
+    margin: 0;
+}
+
+.planclick button {
+    width: 100px;
+    height: 30px;
+    color: red;
+    border-radius: 50px;
+    border: red solid 1px;
+    margin-top: 10px;
+    background: none;
+}
+
+.planclick button a {
+    color: red;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 250px;
+}
+
+.planclick2 {
+    margin-top: 72px;
+}
+
+.planclick2 h5 {
+    margin: 0;
+}
+
+.planclick2 button {
+    width: 100px;
+    height: 30px;
+    color: red;
+    border-radius: 50px;
+    border: red solid 1px;
+    margin-top: 10px;
+    background: none;
+   
+    
+}
+
+.planclick2 button a {
+    color: red;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 250px;
+}
+
+.planPlate3 {
+    width: 230px;
+    height: 520px;
+    border: 2px solid red;
+    text-align: center;
+    background: white;
+}
+
+.planPlate3:hover{
+    width: 230px;
+    height: 520px;
+    border: 2px solid red;
+    text-align: center;
+    background: white;
+    background: rgba( 255, 255, 255, 0.35 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 20px );
+-webkit-backdrop-filter: blur( 20px );
+border-radius: 10px;
+
+}
+
+.planclick3 {
+    margin-top: 50px;
+}
+
+.planclick3 h5 {
+    margin: 0;
+}
+
+.planclick3 button {
+    width: 100px;
+    height: 30px;
+    background: red;
+    color: white;
+    border-radius: 50px;
+    border: none;
+    margin-top: 10px;
+    border-radius: 28px;
+    box-shadow:  -0px 8px 22px rgb(236, 172, 172),
+             0px -0px 0px white;
+}
+/* box-shodow ain't working */
+
+
+.planclick3 button a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 250px;
+}
+
+.picstat {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.picstaText{
+    text-align: center;
+    width: 500;
+    margin-bottom: 100px;
+}
+
+.picstaText h5 {
+    width: 200px;
+    font-size: 18px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.picstaText p {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 13px;
+    text-align: center;
+    width: 450px;
+}
+
+.statmap {
+    width: 1000px;
+    height: auto;
+    margin-left: 90px;
+    
+}
+
+.statcover {
+    width: 950px;
+    margin-left: 100px;
+    
+}
+
+.sto {
+    width: 100%;
+    padding-bottom: 30px;
+}
+
+.story {
+    display: block;
+    text-align: center;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+
+.story h5 {
+    width: 200px;
+    font-size: 16px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.story p {
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 28px;
+}
+
+.storyBoard {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+}
+
+
+.testiCard {
+    width: auto;
+    border: 2px solid rgb(231, 229, 229);
+    padding: 25px;
+    background: white;
+    border-radius: 15px;
+    margin: 10px;
+    
+}
+
+.card1 {
+    border: red 2px solid;
+}
+.userDetails {
+    display: flex;
+    width: auto;
+    margin-bottom: 8px;
+    /* justify-content: space-between; */
+}
+
+.userDetails img {
+    width: 35px;
+    height: 35px;
+}
+
+.name {
+    margin-left: 15px;
+}
+
+.name h6 {
+    margin: 0;
+    font-size: 14px;
+}
+
+.name p {
+    margin: 0;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+
+.rate {
+    display: flex;
+    margin: 0;
+    text-align: center;
+    justify-content: space-between;
+    width: 45px;
+    margin-left: 70px;
+}
+.rate p {
+    margin: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.rate img {
+    width: 15px;
+    height: 15px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.testi p {
+    width: 260px;
+    font-size: 13px;
+    font-weight: 300;
+    margin-bottom: 0;
+    
+}
+
+.sliderPlate{
+    width: 100%;
+}
+
+.slidePlate {
+    display: flex;
+    justify-content: space-between;
+    width: 20px;
+    margin-top: 30px;
+}
+
+.slideIcon {
+    font-size: 8px;
+    border: none;
+    
+}
+
+.active {
+    color: red;
+}
+
+.slider {
+    display: flex;
+    width: 68px;
+    justify-content: space-between;
+    padding: 0;
+    margin-top: 25px;
+}
+
+/* .arow {
+    /* padding: 5px;
+    background: white;
+    border: red 1px solid;
+    border-radius: 100%;
+    width: 18px;
+    height: 18px; 
+    
+} */
+.aright {
+    margin-left: 2.5px;
+    font-size: 20px;
+    background: none;
+    margin-left: 2.5px;
+    color: red;
+    border-radius: 112px;
+}
+
+.aright:hover {
+    background: red;
+    color: white;
+}
+
+/* .arow2 {
+    /* padding: 5px; */
+    /* background: red;
+    /* border: none;
+    border-radius: 100%;
+    width: 18px;
+    height: 18px; 
+    
+} */
+.aleft {
+    font-size: 20px;
+    background: none;
+    margin-left: 2.5px;
+    color: red;
+    border-radius: 112px ;
+}
+
+.aleft:hover {
+    background: red;
+    color: white;
+}
+
+.sliderPlate {
+    display: flex;
+    justify-content: space-between
+}
+
+.sec3 {
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.subplate {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    height: 150px;
+    background: white;
+    /* margin-left: auto;
+    margin-right: auto; */
+    padding: 20px 60px 20px 60px;
+    border-radius: 22px;
+    
+    box-shadow:  18px 18px 36px #cfcece,
+                 -4px -4px 36px #cfcece;
+}
+
+.subText {
+    width: 250px;
+}
+.subText h4 {
+    width: 200px;
+    font-weight: 500;
+    font-size: 18px;
+    margin: 20px 0 0 0;
+}
+
+.subText p {
+    margin: 8px 0 0 0;
+}
+
+.subtn button {
+    width: 150px;
+    height: 40px;
+    background: red;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 28px;
+    /* border-radius: 11px; */
+    box-shadow:  -0px 19px 31px rgb(238, 189, 189),
+             0px -0px 0px white;
+}
+
+.subtn button a {
+    color: white;
+    text-align: center;
+}
+
+.futLog {
+    display: flex;
+    width: 100px;
+    justify-content: space-between;
+}
+.futLog img {
+    width: 30px;
+    height: 31px;
+}
+
+.futLog h4 {
+    margin: 8px 0 0 8px;
+}
+
+.futext {
+    width: 250px;
+}
+
+.futext {
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 23px;
+}
+
+.handles {
+    display: flex;
+    width: 100px;
+    justify-content: space-between;
+}
+
+.fb {
+    font-size: 26px;
+    background: none;
+    color: rgb(28, 136, 224);
+    border-radius: 50%;
+    box-shadow:  22px 22px 85px #7d7b7b,
+                -22px -22px 85px #ffffff;    
+}
+
+.ins {
+    font-size: 26px;
+    background: none;
+    color: rgb(224, 28, 159);
+    border-radius: 100%;
+    box-shadow:  22px 22px 85px #7d7b7b,
+                -22px -22px 85px #ffffff;    
+}
+.tt {
+    font-size: 26px;
+    background: none;
+    color: rgb(28, 201, 224);
+    border-radius: 100%;
+    box-shadow:  22px 22px 85px #7d7b7b,
+                -22px -22px 85px #ffffff;    
+}
+
+.right p {
+   font-size: 13px;
+   font-weight: lighter;
+   color: rgb(136, 136, 136);
+}
+
+.prodt {
+    width: auto;
+    display: block;
+}
+
+.prodt h3 {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.prodt p {
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.pro {
+    width: 450px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.foot {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    justify-self: center;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    margin-top: 0;
+    padding: 220px 60px 20px 60px;
+    
+    background: rgba(80, 79, 79, 0.05);
+    /* box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 7px ); */
+    /* -webkit-backdrop-filter: blur( 7px );
+    border-radius: 10px; */
+}
+
+.about {
+    display: block;
+}
+/* 
+.sec1 .sec2 .sec3 .sec4 {
+    /* padding-left: 60px;
+    padding-right: 30px; 
+    width: 100%;
+} */
+
