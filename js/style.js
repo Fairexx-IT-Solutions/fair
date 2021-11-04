@@ -40,18 +40,9 @@ let Navshow = document.getElementsByClassName("nav-show");
 let Navhide = document.getElementsByClassName("nav-hide");
 let NavItems = document.getElementsByClassName("myNav")
 
-function showMenu(){
-  Navshow.style.display="none";
-  Navhide.style.display="block";
-  myNav.style.display="block";
+function showMenu() {
+  var x = document.getElementsByClassName("myNav")[0];
+  // var y = document.getElementById("nav-show");
+  x.classList.toggle("mynavshow")
 }
 
-function hideMenu(){
-  Navhide.style.display="none";
-  myNav.style.display="none";
-  Navshow.style.display="block";
-  
-}
-
-showMenu();
-hideMenu();
