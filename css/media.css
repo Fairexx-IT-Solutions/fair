@@ -1,34 +1,40 @@
 @media only screen and (min-width: 380px) and (max-width: 500px)  {
     html, body {
         width: 100%;
-        
+        margin: 0;
         padding: 0;
 
     }
     main {
         display: block;
         width: 100%;
-        padding: 8px 0px 8px 0px;
+        padding: 0px 0px 0px 0px;
     }
     .myHeader {
         width: 100%;
         height: auto;
         display: block;
-        float: left;
         margin-top: 0px;
-        padding-left: 8px;
-        padding-right: 8px;
+        padding-left: 20px;
+        padding-right: 20px;
     }
 
     .header {
         width: 100%;
         display: flex;
+        align-content: center;
+        align-self: center;
+        justify-self: center;
+        justify-content: space-between;
         /* justify-content: space-between; */
         
     }
 
     .logo {
         width: 40%;
+        display: flex;
+        /* justify-content: center; */
+        /* align-items: center; */
         
     }
 
@@ -44,7 +50,6 @@
         position: relative;
         padding-left: 0;
         padding-top: 0;
-        text-align: left;
         height: auto;
     }
 
@@ -58,8 +63,8 @@
     .nav-show {
         font-size: 8px;
         display: flex;
-        text-align: right;
-        align-content: center;
+        
+        /* align-content: center; */
         position: absolute;
         background: none;
         color: grey;
@@ -115,8 +120,8 @@
     }
     .in {
         margin-right: 0;
-        width: 30px;
-        height: 10px;
+        width: 40px;
+        height: 15px;
         border: none;
         background: none;
         margin-top: 0px;
@@ -125,7 +130,7 @@
         font-weight: 500;
     }
     .in a {
-        font-size: 4px;
+        font-size: 8px;
         letter-spacing: 1px;
     }
     .in a:hover{
@@ -138,8 +143,8 @@
         align-items: center;
     
         box-sizing: border-box;
-        width: 30px;
-        height: 10px;
+        width: 40px;
+        height: 15px;
         border: red solid 0.01px;
         border-radius: 18px;
         background: none;
@@ -158,15 +163,15 @@
     }
     .up a {
         display: flex;
-        font-size: 4px;
+        font-size: 8px;
         letter-spacing: 1px;
         
     }
     .sec1 {
         display: block;
         width: 100%;
-        padding-left: 30px;
-        padding-right: 30px;
+        padding-left: 20px;
+        padding-right: 20px;
     }
     .myBanner {
         width: 100%;
@@ -185,21 +190,23 @@
     }
     
     .bannerText {
-        width: 40%;
+        width: 100%;
         display: block;
-        margin-bottom: 50px;
+        margin-bottom: 30px;
+        margin-left: 3px;
+        
     }
     
     .bannerText h1 {
         font-family: rubik;
-        font-size: 10px;
+        font-size: 16px;
         font-weight: 500;
         font-style: normal;
         width: 80%;
     }
     
     .bannerText p {
-        font-size: 8px;
+        font-size: 12px;
         font-weight: 200;
         font-style: normal;
         width: 80%;
@@ -212,6 +219,7 @@
         /* border-radius: 50px; */
         width: 80px;
         height: 20px;
+        margin-left: 35px;
         border-radius: 20px;
         background: red;
         box-shadow:  0px 19px 38px #d46969,
@@ -294,28 +302,29 @@
     }
 .services {
     width: 100%;
+    margin-left: 3px;
 }
     
 .bantextcon {
-    margin-top: 80px;
-    width: 30%;
+    margin-top: 50px;
+    width: 100%;
 }
 
 .bantext1 {
     width: 100%;
-    margin-bottom: 30px;
-    margin-bottom: 0;
+    margin-bottom: 10px;
+    
     
 }
 .bantext1 h3 {
-    width: 80%;
-    font-weight: 400;
-    font-size: 10px;
+    width: 100%;
+    font-weight: 500;
+    font-size: 16px;
     
 }
 
 .bantext2  {
-    display: none;
+    display: block;
     width: 100%;
 }
 .bantext2 p {
@@ -326,13 +335,13 @@
 }
 
 .listset {
-    width: 70%;
+    width: 100%;
 }
 
 .list {
     display: flex;
-    margin-top: 20px;
-    margin-bottom: 23px;
+    margin-top:10px;
+    margin-bottom: 10px;
 }
 
 .list img {
@@ -353,14 +362,16 @@
     width: 100%;
     height: auto;
     background: rgb(252, 251, 251);
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
     /* padding-left: 60px;
     padding-right: 30px; */
 }
 
 .pla {
-    width: 80%;
+    width: 100%;
+    padding-bottom: 15px;
+    margin-bottom: 0;
 }
 
 .planText {
@@ -613,22 +624,27 @@ footer{
 }
 
 .foot {
-    width: 80%;
+    width: 100%;
     display: block;
     padding: 0;
     
 }
 .futgen {
-    width: 40%;
-    margin: 0 8px 0 8px;
+    display: block;
+    width: 100%;
+    margin: 0 0px 0px 0px;
     margin-bottom: 20px;
 }
 .futLog {
-    width: 40%;
+    width: 80%;
+    display: flex;
+    justify-content: start;
+    margin-bottom: 8px;
 }
 .futLog img {
     width: 20px;
     height: 21px;
+    margin: 0;
 }
 .futext {
     font-size: 8px;
@@ -642,8 +658,10 @@ footer{
   font-weight: 500;
 }
 .handles {
-    width: 30%;
-    align-content: center;
+    width: 15%;
+    display: flex;
+    justify-content: space-between;
+    /* align-content: center; */
 }
 .fb {
     font-size: 10px;
@@ -938,10 +956,13 @@ footer{
     width: 100%;
     height: auto;
     background: rgb(252, 251, 251);
-    padding-left: 60px;
-    padding-right: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
     /* padding-left: 60px;
     padding-right: 30px; */
+}
+.pla {
+    width: 100%;
 }
 
 .planText {
@@ -953,7 +974,8 @@ footer{
 
 .planText h3 {
     font-family: rubik;
-    font-size: 18px;
+    font-size: 16px;
+    font-weight: 500;
 }
 
 .planText p {
