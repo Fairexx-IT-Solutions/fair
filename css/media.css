@@ -1,6 +1,7 @@
-@media only screen and (min-width: 380px) and (max-width: 600px)  {
+@media only screen and (min-width: 380px) and (max-width: 480px)  {
     html, body {
         width: 100%;
+        height: auto;
     }
     main {
         display: block;
@@ -12,21 +13,30 @@
         display: block;
         float: left;
         margin-top: 2px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .header {
+        width: 100%;
+        display: flex;
+        /* justify-content: space-between; */
+        
     }
 
     .logo {
-        width: 100%;
+        width: 20%;
         
     }
 
     .logo img{
-        width: 100px;
-        height:80px; 
+        width: 18px;
+        height:20px; 
 
     }
     .logo h2 {
         width: auto;
-        font-size: 30px;
+        font-size: 10px;
         margin-left: 4px;
         position: relative;
         padding-left: 0;
@@ -37,18 +47,19 @@
 
     .nav-control {
         display: block;
-        margin-top: 15px;
-        float: right;
-        text-align: right;
+        width: 20%;
+        
+        
     }
 
     .nav-show {
-        display: block;
+        display: flex;
         text-align: right;
+        align-content: center;
         position: absolute;
         background: none;
         color: grey;
-        margin-bottom: 5px;
+        margin-top: 20px;
     }
     .nav-hide {
         display: none;
@@ -61,10 +72,12 @@
         width: 100%;
         margin-left: 0;
         float: left;
+        
     }
     .myNav ul {
         width: 100%;
         display:block;
+        text-align: center;
         list-style: none;
         margin-left: 0;
         margin-right: 0;
@@ -74,16 +87,22 @@
         background: rgb(209, 207, 207);
         background-blend-mode:color;
         padding: 4px 0px 4px 0px;
+        right: -300;
         
     }
     .mynavshow {
         display: block;
+        right: 0;
+        
     }
     .myNav ul li a {
         color: white;
+        box-sizing: border-box;
+        
     }
-    .myNav ul li a:hover {
+    .myNav ul li a:hover{
         color: red;
+        
     }
     .sign {
         width: 100%;
@@ -92,17 +111,17 @@
     }
     .in {
         margin-right: 0;
-        width: 80px;
-        height: 30px;
+        width: 50px;
+        height: 20px;
         border: none;
         background: none;
         margin-top: 0px;
         font-family: rubik;
-        font-size: 10px;
+        font-size: 8px;
         font-weight: 300;
     }
     .in a {
-        font-size: 15px;
+        font-size: 8px;
         letter-spacing: 1px;
     }
     .in a:hover{
@@ -115,15 +134,15 @@
         align-items: center;
     
         box-sizing: border-box;
-        width: 80px;
-        height: 30px;
+        width: 50px;
+        height: 20px;
         border: red solid 0.01px;
         border-radius: 18px;
         background: none;
-        margin-left: 8px;
+        margin-left: 4px;
         color: red;
         font-family: rubik;
-        font-size: 12px;
+        font-size: 8px;
         font-weight: 300;
         justify-content: center;
         text-decoration: none;
@@ -135,13 +154,15 @@
     }
     .up a {
         display: flex;
-        font-size: 15px;
+        font-size: 8px;
         letter-spacing: 1px;
         
     }
     .sec1 {
         display: block;
         width: 100%;
+        padding-left: 30px;
+        padding-right: 30px;
     }
     .myBanner {
         width: 100%;
@@ -160,22 +181,24 @@
     }
     
     .bannerText {
+        width: 40%;
         display: block;
         margin-bottom: 50px;
     }
     
     .bannerText h1 {
         font-family: rubik;
-        font-size: 30px;
-        font-weight: 400px;
+        font-size: 10px;
+        font-weight: 500;
         font-style: normal;
+        width: 80%;
     }
     
     .bannerText p {
-        font-size: 13px;
+        font-size: 8px;
         font-weight: 200;
         font-style: normal;
-        width: 100%;
+        width: 80%;
     }
     
     .btnn {
@@ -183,8 +206,8 @@
         border: none;
         /* filter: drop-shadow(0px 15px 0px rgb(243, 174, 174)); */
         /* border-radius: 50px; */
-        width: 200px;
-        height: 50px;
+        width: 80px;
+        height: 20px;
         border-radius: 20px;
         background: red;
         box-shadow:  0px 19px 38px #d46969,
@@ -197,7 +220,7 @@
     .btnn p {
         color: white;
         text-align: center;
-        font-size: 18px;
+        font-size: 8px;
     }
 
     .imgcontainer {
@@ -265,32 +288,41 @@
         width: 300px;
         height: 200px;
     }
-
+.services {
+    width: 100%;
+}
     
 .bantextcon {
     margin-top: 80px;
-    width: 100%;
+    width: 30%;
 }
 
 .bantext1 {
     width: 100%;
     margin-bottom: 30px;
+    margin-bottom: 0;
     
 }
 .bantext1 h3 {
-    width: 100%;
-    font-weight: 500;
-    font-size: 25px;
+    width: 80%;
+    font-weight: 400;
+    font-size: 10px;
+    
 }
 
 .bantext2  {
+    display: none;
     width: 100%;
 }
 .bantext2 p {
-    width: 100%;
+    width: 80%;
     font-weight: 350;
-    font-size: 16px;
-    line-height: 30px;
+    font-size: 10px;
+    line-height: 15px;
+}
+
+.listset {
+    width: 70%;
 }
 
 .list {
@@ -300,8 +332,8 @@
 }
 
 .list img {
-    height: 16px;
-    width: 16px;
+    height: 8px;
+    width: 8px;
     text-align: center;
 }
 
@@ -309,22 +341,26 @@
     margin-top: 0;
     margin-bottom: 0;
     margin-left: 16px;
-    font-weight: 350;
-    font-size: 16px;
+    font-weight: 300;
+    font-size: 8px;
 }
 
 .sec2 {
     width: 100%;
     height: auto;
     background: rgb(252, 251, 251);
-    padding-left: 60px;
-    padding-right: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
     /* padding-left: 60px;
     padding-right: 30px; */
 }
 
+.pla {
+    width: 80%;
+}
+
 .planText {
-    width: 100%;
+    width: 40%;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -332,33 +368,148 @@
 }
 
 .planText h3 {
+    width: 100%;
     font-family: rubik;
-    font-size: 18px;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
 }
 
 .planText p {
+    width: 100%;
     text-align: center;
-    font-size: 15px;
+    font-size: 8px;
     font-family: rubik;
     font-weight: 300;
-    width: 180px;
+    
 }
 
 .plateMain {
     display: block;
-    width: 100%;
+    width: 40%;
     margin-left: auto;
     margin-right: auto;
 }
 
 .planPlate {
-    width: 230px;
-    height: 520px;
+    width: 100%;
+    height: auto;
     border: 2px solid #DDDDDD;
-    text-align: center;
     background: white;
     margin-bottom: 20px;
 
+}
+.planPlate3 {
+    width: 100%;
+    height: auto;
+    border: 2px solid #DDDDDD;
+    background: white;
+    margin-bottom: 20px;
+
+}
+.planItem {
+    margin-top: 10px;
+}
+
+.planItem img {
+    width: 40px;
+    height: 45px;
+}
+.planItem h5{
+    font-size: 10px;
+    margin-bottom: 10px;
+}
+.planListItem{
+    width: 100%;
+}
+.planList img {
+    width: 3px;
+    height: 4.0px;
+}
+
+.planList p {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 4px;
+    font-weight: 300;
+    font-size: 8px;
+    text-align: left;
+}
+.planList{
+    width: 100%;
+    margin-left: 30px;
+    
+}
+.planclick {
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.planclick h5 {
+    font-size: 8px;
+    font-weight: 500;
+}
+.planclick button{
+    width: 35px;
+    height: 20px;
+    
+    
+}
+
+.planclick button a {
+    display: flex;
+    font-size: 8px;
+    justify-content: center;
+    /* text-align: center; */
+}
+
+.planclick2 {
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.planclick2 h5 {
+    font-size: 8px;
+    font-weight: 500;
+}
+.planclick2 button{
+    width: 35px;
+    height: 20px;
+    
+    
+}
+
+.planclick2 button a {
+    display: flex;
+    font-size: 8px;
+    justify-content: center;
+    /* text-align: center; */
+}
+
+.planclick3 {
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.planclick3 h5 {
+    font-size: 8px;
+    font-weight: 500;
+}
+.planclick3 button{
+    width: 35px;
+    height: 20px;
+    
+    
+}
+
+.planclick3 button a {
+    display: flex;
+    font-size: 8px;
+    justify-content: center;
+    /* text-align: center; */
 }
 
 .picstat {
@@ -397,29 +548,19 @@
 }
 
 .subplate {
-    position: absolute;
-    display: block;
-    justify-content: space-between;
-    width: 60%;
-    height: 150px;
-    margin-top: 30px;
-    background: white;
-    /* margin-left: auto;
-    margin-right: auto; */
-    padding: 10px;
-    border-radius: 22px;
-    
-    box-shadow:  18px 18px 36px #cfcece,
-                 -4px -4px 36px #cfcece;
+    display: none;
+
 }
 
 .subText {
-    width: 80%;
+    display: none;
+    width: 30%;
 }
 .subText h4 {
+    display: none;
     width: 200px;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 13px;
     margin: 8px 0 0 0;
 }
 
@@ -429,6 +570,7 @@
 }
 
 .subtn button {
+    display: none;
     width: 100px;
     height: 40px;
     background: red;
@@ -456,21 +598,83 @@ footer {
     border-radius: 10px; */
 }
 
+footer{
+    width: 100%;
+    display: block;
+    padding: 20px 30px 20px 30px;
+}
+
 .futext {
-    width: 140px;
+    width: 60%;
 }
 
 .foot {
-    width: 100%;
+    width: 80%;
     display: block;
+    padding: 0;
     
 }
 .futgen {
+    width: 40%;
     margin: 0 8px 0 8px;
     margin-bottom: 20px;
 }
+.futLog {
+    width: 40%;
+}
+.futLog img {
+    width: 20px;
+    height: 21px;
+}
+.futext {
+    font-size: 8px;
+    font-weight: 300;
+    line-height: 13px;
+}
+.futLog h4 {
+  margin-top: 8px;
+  font-size: 10px;
+  margin-left: 3px;
+  font-weight: 500;
+}
+.handles {
+    width: 30%;
+    align-content: center;
+}
+.fb {
+    font-size: 10px;
+    background: none;
+    color: rgb(28, 136, 224);
+    border-radius: 50%;
+    box-shadow:  22px 22px 85px #7d7b7b,
+                -22px -22px 85px #ffffff;    
+}
+
+.ins {
+    font-size:10px;
+    background: none;
+    color: rgb(224, 28, 159);
+    border-radius: 100%;
+    box-shadow:  22px 22px 85px #7d7b7b,
+                -22px -22px 85px #ffffff;    
+}
+.tt {
+    font-size: 10px;
+    background: none;
+    color: rgb(28, 201, 224);
+    border-radius: 100%;
+    box-shadow:  22px 22px 85px #7d7b7b,
+                -22px -22px 85px #ffffff;    
+}
+
+.right p {
+    font-size: 8px;
+    font-weight: lighter;
+    color: rgb(136, 136, 136);
+ }
 
 .pro {
+    display: none;
     width: 80%;
 }
 .sec2 {
